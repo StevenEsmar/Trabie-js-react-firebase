@@ -1,7 +1,87 @@
 .container{
-    background-image: url('unal.jpg');
+    background-image: url('../../unal.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
+ 
+img{
+  float: left;
+  margin-left: 18em;
+  
+  margin-top: 7em;
+  width: 16em;
+  height: 16em;
+}
+
+.gmaillogo{
+  width: 2px;
+  height: 2px;
+}
+
+.loginform{
+    background-color: 	rgb(67, 67, 67);
+    width: 180px;
+    padding: 10px;
+    border: 5px solid gray;
+    border-radius: 1em;
+    margin-top: -15em;
+    margin-right: 5em;
+    background-repeat: repeat-y;
+    float: right;
+    
+    text-align: center;
+    color: rgb(188, 188, 188);
+}
+
+.name{
+  font-size: 6.5vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  float: left;
+  font-style: oblique;
+  margin-top: 1em;
+  margin-left: 8%;
+  
+  
+  line-height: 0em;
+  text-shadow: -2px -4px 3px rgb(0, 0, 0);
+}
+
+
+
+.btnlogin{
+  background-color: 	rgb(255, 51, 0);
+  border-bottom: 0ch;
+  font-size: 3.1mm;
+  padding: 3%;
+  border-radius: 2mm;
+  border-style: hidden;
+  color:rgb(188, 192, 196) ;
+  font-family: sans-serif;
+  padding-left: 0.6cm;
+  padding-right: 0.6cm;
+}
+
+
+h4{
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 51, 0);
+}
+
+input{
+  background-color: rgb(197, 206, 206);
+}
+
+h1{
+  margin-top: 50%;
+}
+
+pre{
+  margin-left: 2.5em;
+}
+

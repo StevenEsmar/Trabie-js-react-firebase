@@ -1,19 +1,32 @@
 import React from 'react';
 import './Login.css';
+import  Auth from './auth'
+//import { useFirebaseApp } from 'reactfire';
+import {useUser} from 'reactfire';
 
-class login extends React.Component {
-    render(){
+
+function Login() {
+    const user = useUser();
+
         return(
             
-            <div className='container'>
+            <body className='container'>
                 
-             
-                Traspaso de bienes educativos en la Universidad nacional
-               
-            </div>
+                <img src={'logo.png'} alt="logoTrabie" //height="100px" width="100px"
+                />
+                <div className='name'>
+                
+                Traspaso de bienes educativos <p></p> <pre> la Universidad nacional.</pre>
+                </div>             
+                {user && <p>Usuario: {user.email}</p>}
+                
+                <Auth/>
+            
+            </body>
+            
         )
 
-    }
+    
 }
 
-export default login;
+export default Login;
